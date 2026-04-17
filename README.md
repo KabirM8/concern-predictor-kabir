@@ -57,3 +57,40 @@ Also include:
 
 - A rough total of the hours you spent, so we can compensate you for your time.
 - Any questions you'd want to ask us before shipping something like this for real.
+
+## Submission
+1. How to run the tool:
+
+pip install -r requirements.txt
+python3 main.py
+
+2. My pproach to predicting concerns and ranking them:
+
+The tool uses prompt engineering with an LLM to identify likely public concerns based on CEQA Appendix G categories. Concerns are inferred by detecting key signals in the project description (e.g., scale of development, land use changes, infrastructure additions) and mapping them to relevant environmental impact categories. Ranking is based on perceived impact severity and likelihood.
+
+3. What surprised me:
+
+The model was generally good at identifying major categories like land use and transportation, but required prompt refinement to consistently use correct Appendix G category names instead of generic labels.
+
+4. What would I do with more time:
+
+- Add retrieval (RAG) to reference past CEQA cases
+- Improve ranking consistency using heuristics
+- Add confidence scores per concern
+- Normalize category naming further
+
+5. How I’d evaluate this in practice:
+
+- Compare predictions against actual public comments from CEQA reviews
+- Measure coverage of key Appendix G categories
+- Evaluate whether rationales are grounded in project-specific details
+- Analyze ranking alignment with real-world concerns
+
+6. Time spent:
+
+I spent approximately 5-6 hours on the project
+
+7. Questions:
+
+- How should concern importance be weighted (e.g., legal risk vs public sentiment)?
+- What level of consistency/accuracy is expected for deployment?
