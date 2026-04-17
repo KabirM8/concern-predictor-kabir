@@ -1,10 +1,19 @@
 import os
+from pathlib import Path
 from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    raise ValueError("Missing OPENAI_API_KEY in .env")
+
+client = OpenAI(api_key=api_key)
+
+SAMPLES_DIR = Path("samples")
+OUTPUTS_DIR = Path("outputs")
+
 
 def generate_concerns(project_description):
     prompt = f"""
@@ -32,13 +41,20 @@ Keep the output structured and concise.
     return response.choices[0].message.content
 
 
+def main():
+    OUTPUTS_DIR.mkdir(exist_ok=True)
+
+    sample_files = sorted(SAMPLES_DIR.glob("*.md"))[:3]
+
+    for sample_file in sample_files:
+        text = sample_file.read_text(encoding="utf-8")
+        result = generate_concerns(text)
+
+        output_path = OUTPUTS_DIR / f"{sample_file.stem}.txt"
+        output_path.write_text(result, encoding="utf-8")
+
+        print(f"done: {sample_file.name}")
+
+
 if __name__ == "__main__":
-    sample_description = """
-    The applicant proposes constructing 615 residential units on 135 acres of active orchard land,
-    including roads, stormwater infrastructure, and a public park.
-    """
-
-    result = generate_concerns(sample_description)
-
-    print("\nPredicted Public Concerns:\n")
-    print(result)
+    main()
