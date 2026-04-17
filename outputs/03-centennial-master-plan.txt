@@ -1,0 +1,26 @@
+### Ranked List of Likely Public Concerns
+
+1. **Concern: Wildfire Risk**
+   - **Appendix G Category:** Fire Safety
+   - **Description:** The project is located in a rural area near the Tehachapi Mountains, which is prone to wildfires. The incorporation of utility-scale battery storage may raise concerns about fire hazards associated with energy storage systems.
+   - **Rationale:** Given the project's location and the ongoing analysis of wildfire impacts as part of the Supplemental EIR, community members are likely to express concerns about how the project will mitigate wildfire risks and protect both residents and the surrounding environment.
+
+2. **Concern: Greenhouse Gas Emissions**
+   - **Appendix G Category:** Greenhouse Gas Emissions
+   - **Description:** The project aims to support Net Zero GHG objectives, but the addition of 19,333 residential units and associated infrastructure could lead to increased greenhouse gas emissions during construction and operation.
+   - **Rationale:** Residents may be concerned about the effectiveness of the proposed measures to achieve net-zero emissions, especially in light of the project's scale and the potential for increased traffic and energy consumption.
+
+3. **Concern: Traffic and Transportation**
+   - **Appendix G Category:** Transportation
+   - **Description:** The revision of internal roadway design standards to increase evacuation capacity may not adequately address the anticipated increase in traffic from the new residential and commercial developments.
+   - **Rationale:** Community members may worry about congestion, safety, and accessibility, particularly in emergency situations, given the project's scale and its location in a rural area with potentially limited existing infrastructure.
+
+4. **Concern: Biological Resources**
+   - **Appendix G Category:** Biological Resources
+   - **Description:** The project site spans 12,323 acres in a largely undeveloped area, which may contain sensitive habitats and wildlife that could be impacted by construction and development activities.
+   - **Rationale:** Residents and environmental advocates may raise concerns about the potential loss of biodiversity and habitat fragmentation, particularly if the project does not adequately address environmental protections.
+
+5. **Concern: Utilities and Service Systems**
+   - **Appendix G Category:** Utilities and Service Systems
+   - **Description:** The addition of a large number of residential units and commercial facilities may strain existing utility services, including water supply, sewage, and electricity.
+   - **Rationale:** Community members may express concerns about whether the local infrastructure can support the increased demand and how the project plans to ensure adequate services without negatively impacting current residents.

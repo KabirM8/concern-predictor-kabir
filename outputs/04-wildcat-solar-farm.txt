@@ -1,0 +1,29 @@
+### Ranked List of Likely Public Concerns
+
+1. **Air Quality**
+   - **Concern:** Potential increase in air pollution during construction and operation phases.
+   - **Rationale:** The construction of a large solar facility, including access roads and infrastructure upgrades, could generate dust and emissions from heavy machinery, impacting local air quality, especially in a region already sensitive to air pollution.
+
+2. **Biological Resources**
+   - **Concern:** Impact on local wildlife and habitats, particularly near the Salton Sea.
+   - **Rationale:** The project site is near a significant ecological area, and the construction and operation of the solar facility could disrupt local ecosystems, potentially harming species that rely on the habitat.
+
+3. **Hydrology and Water Quality**
+   - **Concern:** Potential impacts on groundwater resources due to the proposed groundwater well.
+   - **Rationale:** The extraction of groundwater for the solar facility could affect local water tables and quality, raising concerns among residents about water availability and ecosystem health in an arid region.
+
+4. **Land Use and Planning**
+   - **Concern:** Compatibility of the solar facility with existing zoning and land use designations.
+   - **Rationale:** The project site includes mixed zoning designations, and there may be public concern regarding whether the large-scale solar facility aligns with local land use plans and community character.
+
+5. **Transportation**
+   - **Concern:** Increased traffic and potential road safety issues due to construction activities.
+   - **Rationale:** The construction phase will likely involve significant vehicle traffic for transporting materials and workers, which could lead to congestion and safety concerns on nearby roads, particularly SR 86.
+
+6. **Utilities and Service Systems**
+   - **Concern:** Strain on local infrastructure due to upgrades to transmission lines.
+   - **Rationale:** Upgrading the Imperial Irrigation District's transmission lines may raise concerns about the capacity of existing infrastructure to handle increased energy loads and the potential for outages or disruptions.
+
+7. **Population and Housing**
+   - **Concern:** Effects on local housing and community dynamics due to potential influx of workers.
+   - **Rationale:** The construction and operation of the facility may attract temporary workers to the area, which could impact local housing availability and community resources, leading to concerns among residents about affordability and displacement.
